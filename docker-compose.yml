@@ -1,0 +1,8 @@
+  version: '3'
+  services:
+    app:
+      image: sayems/selenium
+      volumes:
+        - .:/app
+        - ~/.m2:/root/.m2
+      command: mvn install

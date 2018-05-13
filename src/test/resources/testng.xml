@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG" verbose="1" thread-count="1">
+    <test name="Groups Run">
+        <classes>
+            <class name="org.sayem.AppIT"/>
+        </classes>
+    </test>
+</suite>
